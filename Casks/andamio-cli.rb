@@ -3,7 +3,7 @@ cask "andamio-cli" do
   name "andamio-cli"
   desc "CLI for the Andamio Protocol"
   homepage "https://github.com/Andamio-Platform/andamio-cli"
-  version "0.3.0"
+  version "0.4.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "andamio-cli" do
   on_macos do
     on_intel do
       url "https://github.com/Andamio-Platform/andamio-cli/releases/download/v#{version}/andamio_#{version}_darwin_amd64.tar.gz"
-      sha256 "2204ef4474d15dc87880a8998ac5260396ca3eee82f3f87e4863750958ae7152"
+      sha256 "4b374ef1a40599c31e4590b7aa9943c5dc3a86091cbcd2f4efcab21b28866b9b"
     end
     on_arm do
       url "https://github.com/Andamio-Platform/andamio-cli/releases/download/v#{version}/andamio_#{version}_darwin_arm64.tar.gz"
-      sha256 "733b2d5a92239b157b15763f0a1a7683362627145810893b87395833d5abd9a9"
+      sha256 "f391c7361ee82ca09009dc5284d0443a26d2de31b5eea0385f12e64ccd2ac0f0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Andamio-Platform/andamio-cli/releases/download/v#{version}/andamio_#{version}_linux_amd64.tar.gz"
-      sha256 "7b91465f800ec2cf47face9b49c56a36d5fb361348c3e138706ae1cd6bde3cab"
+      sha256 "08e82b232ec62892200a9f7ca00fb0898d21de948b88da579d9e776473963cb7"
     end
     on_arm do
       url "https://github.com/Andamio-Platform/andamio-cli/releases/download/v#{version}/andamio_#{version}_linux_arm64.tar.gz"
-      sha256 "9e86926e9106a96984847096fd928be99a70e6a45b21c5d4a24df2d07f6c2d77"
+      sha256 "702b1ef6fddd3d455102b9c88f72463cb68b7aa829033307c4d0e4e11b5bef04"
     end
   end
 
